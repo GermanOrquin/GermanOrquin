@@ -359,10 +359,20 @@ textarea {
     grid-row: span 2;
 }
 
+.navbar-text {
+    display: none;
+} 
 
 @media (min-width: 500px) {
 
     .video {
         max-width: 85%;
     }
+}
+
+@media (min-width: 1080px) {
+
+    .navbar-text {
+        display: block;
+    } 
 }
