@@ -128,7 +128,8 @@ body {
 }
 
 form {
-    width: 450px;
+    width: 330px;
+    height: 430px;
     margin-top: 50%;
     margin-bottom: auto;
     margin-left: auto;
@@ -171,7 +172,7 @@ textarea {
 #boton {
     background: rgba(175, 174, 167, 0.795);
     color: yell;
-    padding: 20px;
+    padding: 10px;
     font-weight: 700;
 }
 
@@ -367,6 +368,25 @@ textarea {
 
     .video {
         max-width: 85%;
+    }
+
+    form {
+        width: 450px;
+        margin-top: 50%;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(255, 255, 255, 0.4);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+
+    #boton {
+        background: rgba(175, 174, 167, 0.795);
+        color: yell;
+        padding: 20px;
+        font-weight: 700;
     }
 }
 
