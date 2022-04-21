@@ -32,6 +32,16 @@ body {
     min-height: 100vh;
 }
 
+.content6 {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+    background-image: url(Images/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 .content4 {
     grid-area: content;
     display: flex;
@@ -49,8 +59,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
-
 
 .footer {
     padding: 40px 0;
@@ -119,7 +127,6 @@ body {
     align-items: center;
 }
 
-
 form {
     width: 450px;
     margin-top: 50%;
@@ -131,6 +138,8 @@ form {
     box-sizing: border-box;
     border-radius: 7px;
 }
+
+
 h2 {
     color: white;
     text-align: center;
@@ -174,7 +183,7 @@ textarea {
     background: rgba(255, 255, 255, 0.767);
     color: yell;
     padding: 15px;
-    margin-top: 2%;
+    margin-top: 8%;
 }
 
 #boton2:hover {
@@ -185,7 +194,7 @@ textarea {
     background: rgba(255, 255, 255, 0.767);
     color: yell;
     padding: 15px;
-    margin-top: 16%;
+    margin-top: 10%;
 }
 
 #boton3:hover {
@@ -196,11 +205,48 @@ textarea {
     background: rgba(255, 255, 255, 0.767);
     color: yell;
     padding: 15px;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 #boton4:hover {
     cursor: pointer;
+}
+
+#boton5 {
+    background: rgba(255, 255, 255, 0.767);
+    color: yell;
+    padding: 15px;
+    margin-top: 3%;
+}
+
+#boton5:hover {
+    cursor: pointer;
+}
+
+#boton6 {
+    background: rgba(255, 255, 255, 0.767);
+    color: yell;
+    padding: 15px;
+    margin-top: -4%;
+}
+
+#boton6:hover {
+    cursor: pointer;
+}
+
+#boton7 {
+    background: rgba(255, 255, 255, 0.767);
+    color: yell;
+    padding: 15px;
+    margin-top: 4%;
+}
+
+#boton7:hover {
+    cursor: pointer;
+}
+
+.nombre p {
+    color: blue;
 }
 
 
@@ -240,7 +286,7 @@ textarea {
 }
 
 .contenedor .card .separar {
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 }
 
 .contenedor .card .precio {
@@ -261,6 +307,10 @@ textarea {
     font-weight: 600;
     color: rgb(12, 8, 8);
     margin: -2px;
+}
+
+.contenedor .card .nombre {
+    font-size: 30px;
 }
 
 .contenedor .card a {
