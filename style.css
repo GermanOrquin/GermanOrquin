@@ -390,13 +390,6 @@ textarea {
         font-weight: 700;
     }
 
-    .wide {
-        grid-column: span 2;
-    }
-    
-    .tall {
-        grid-row: span 2;
-    }
 }
 
 
@@ -423,6 +416,15 @@ textarea {
         color: yell;
         padding: 10px;
         font-weight: 700;
+    }
+
+    
+    .wide {
+        grid-column: span 2;
+    }
+    
+    .tall {
+        grid-row: span 2;
     }
 }
 
