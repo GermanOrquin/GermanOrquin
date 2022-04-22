@@ -352,13 +352,16 @@ textarea {
     grid-auto-flow: dense;
 }
 
+
+
 .wide {
-    grid-column: span 2;
+    grid-column: 0;
 }
 
 .tall {
     grid-row: span 2;
 }
+
 
 .navbar-text {
     display: none;
@@ -385,6 +388,14 @@ textarea {
         color: yell;
         padding: 10px;
         font-weight: 700;
+    }
+
+    .wide {
+        grid-column: span 2;
+    }
+    
+    .tall {
+        grid-row: span 2;
     }
 }
 
